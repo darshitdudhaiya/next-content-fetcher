@@ -1,0 +1,24 @@
+{
+  "name": "next-content-fetcher",
+  "version": "1.0.0",
+  "description": "A Next.js utility for fetching markdown content from the /content directory",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
+    "path": "^0.12.7"
+  },
+  "keywords": [
+    "nextjs",
+    "content",
+    "markdown",
+    "queryContent",
+    "filesystem"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
